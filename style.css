@@ -538,7 +538,21 @@ h2 {
     grid-row: 7 / 9;
 }
 
+/*Página Galería*/
+section a img {
+    height: 90%;
+}
 
+/*Grid contenedor de imágenes*/
+.grid_container_galeria {
+    margin-top: 2%;
+    display: grid;
+    grid-template-columns: repeat(4, 24%);
+    grid-template-rows: repeat(5, 8%);
+    row-gap: 1%;
+    column-gap: 1%;
+    justify-items: center;
+}
 
 /*Página Contacto clases*/
 .contacto_informacion {
