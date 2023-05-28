@@ -90,6 +90,11 @@ section nav ul li a {
     border-radius: 5px;
 }
 
+section nav ul li a:hover {
+    color: darkgrey;
+    background-color: #01543B;
+}
+
 .pag_h4 {
     font-weight: 200;
     padding-top: 20px;
