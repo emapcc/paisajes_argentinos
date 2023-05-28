@@ -42,16 +42,27 @@
     <h1 class="h1_estandar">Paisajes Argentinos</h1>
 
     <!--Info de Contacto-->
-    <img src="" alt="Imagen teléfono">
-    <section class="contacto_informacion">
+    <section class="contacto_contenedor">
 
-        <h2 class="contacto_informacion">Contacto</h2>
-        <img src="" alt="Imagen correo">
-        <p>ejemplo.mail@gmail.com.ar</p>
-        <img src="" alt="Imagen teléfono">
-        <p>+54 9 3333 333 333</p>
-        <img src="" alt="Logo Instagram">
-        <p>@nombre.redsocial</p>
+        <img class="img_telefono" src="../img/img_telef.png" alt="Imagen teléfono">
+    
+        <section class="contacto_informacion">
+
+            <h2 class="contacto_h2">CONTACTO</h2>
+            <div class="div_contacto">
+                <img src="../img/img_correo.png" alt="Imagen correo">
+                <p>ejemplo.mail@gmail.com.ar</p>
+            </div>
+            <div class="div_contacto">
+                <img src="../img/img_numero.png" alt="Imagen teléfono">
+                <p>+54 9 3333 333 333</p>
+            </div>
+            <div class="div_contacto">
+                <img src="../img/img_instagram.png" alt="Logo Instagram">
+                <p>@nombre.redsocial</p>
+            </div>
+
+        </section>
 
     </section>
 
@@ -59,9 +70,10 @@
     <section>
 
         <h3 class="contacto_h3">Dejanos tu opinión de la página:</h3>
-        <form action="../form.php" method="POST">
-            <label for="">Text Area</label>
-            <textarea name="textarea_contacto" id="" cols="30" rows="10"></textarea>
+
+        <form class="form_contenedor" action="" method="POST">
+            <label class="label_cont" for="">Text Area</label>
+            <textarea name="textarea_contacto" id="" cols="40" rows="10"></textarea>
             <input type="submit" value="Enviar" class="contacto_boton">
         </form>
 

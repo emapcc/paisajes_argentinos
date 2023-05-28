@@ -555,19 +555,62 @@ section a img {
 }
 
 /*Página Contacto clases*/
+.contacto_contenedor {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.img_telefono {
+    height: 400px;
+    margin-top: 4%;
+}
+
+.contacto_h2 {
+    background-color: rgb(215, 238, 236);
+    border-top: none;
+    border-bottom: 1px solid #93A1AE;
+}
+
 .contacto_informacion {
-    background-color: rgb(193, 229, 218);
-    margin: 25% 25%;
+    background-color: rgb(215, 238, 236);
+    padding: 5% 10%;
+    border: 1px solid rgb(101, 161, 143);
+    margin: 5% 5%;
     text-align: center;
+}
+
+.div_contacto {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.contacto_informacion img {
+    height: 2rem;
+    margin: auto;
 }
 
 .contacto_h3 {
     background-color: rgba(232, 238, 238, 0.867);
+    font-weight: 300;
+    padding: 1.5% 1%;
+    border-top: 1px solid #93A1AE;
+}
+
+.form_contenedor {
+    text-align: center;
+}
+
+.label_cont {
+    color: white;
 }
 
 .contacto_boton {
     background-color:  rgb(154, 221, 206);
     color: black;
+    border: 1px solid #93A1AE;
+    padding: 0 2%;
 }
 
 /*Footer*/
