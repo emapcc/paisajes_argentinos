@@ -616,10 +616,6 @@ section a img {
     margin-bottom: 2%;
 }
 
-.label_cont {
-    color: white;
-}
-
 .contacto_boton {
     background-color:  rgb(154, 221, 206);
     color: black;
@@ -948,5 +944,34 @@ footer ul li a {
 
     .info_p_quilmes {
         margin: 0 4.5% 4% 4.5%;
+    }
+    
+    /*Página Galería*/
+    .grid_container_galeria {
+        display: block;
+    }
+
+    .img_galeria {
+        height: 12rem;
+        margin: 2%;
+        align-content: center;
+    }
+
+    /*Página Contacto*/
+    .img_telefono {
+        height: 250px;
+    }
+
+    section section div p {
+        font-size: small;
+    }
+
+    .contacto_h4 {
+        font-size: small;
+        padding: 3%;
+    }
+
+    .form_contenedor {
+        font-size: xx-small;
     }
 }
