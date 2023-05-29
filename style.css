@@ -113,16 +113,16 @@ h2 {
     margin-top: 0;
 }
 
-/*Sección Buenos Aires*/
+/*Sección Buenos Aires y Norte*/
 
-.grid_container_bsas {
+.grid_container_lugares {
     margin: 1%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
 }
 
-.p_lugares_bsas {
+.p_lugares {
     background-color: #D7EEEC;
     padding: 25px;
     border: 1px solid #43A89B;
@@ -131,7 +131,7 @@ h2 {
     margin-top: 0;
 }
 
-.img_lugares_bsas {
+.img_lugares {
     width: 100%;
     margin-bottom: 2%;
 }
@@ -157,29 +157,6 @@ h2 {
     text-align: justify;
     margin-left: 25px;
     margin-top: 0;
-}
-
-/*Sección Norte*/
-
-.grid_container_norte {
-    margin: 1%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-}
-
-.p_lugares_norte {
-    background-color: #D7EEEC;
-    padding: 25px;
-    border: 1px solid #43A89B;
-    text-align: justify;
-    margin-right: 25px;
-    margin-top: 0;
-}
-
-.img_lugares_norte {
-    width: 100%;
-    margin-bottom: 2%;
 }
 
 /*Página Info clases*/
@@ -741,12 +718,23 @@ footer ul li a {
         font-size: medium;
     }
 
-    .grid_container_bsas {
+    .grid_container_lugares {
         display: flex;
         flex-wrap: wrap;
     }
 
-    .p_lugares_bsas {
+    .p_lugares {
+        padding: 4%;
+        font-size: 90%;
+        margin: 2%;
+    }
+
+    .grid_container_patag {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .p_lugares_patag {
         padding: 4%;
         font-size: 90%;
         margin: 2%;
