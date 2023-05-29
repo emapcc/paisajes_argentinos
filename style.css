@@ -678,7 +678,10 @@ footer ul li a {
 
 /* MEDIA QUERY */
 
+/*Mobile*/
 @media only screen and (max-width: 480px) {
+
+    /*Página Inicio*/
     .h1_estandar {
         font-size: 27px;
     }
@@ -727,5 +730,25 @@ footer ul li a {
     footer {
         padding: 0.5px;
         font-size: x-small;
+    }
+
+    /*Página Lugares*/
+    .h1_lugares {
+        font-size: 27px;
+    }
+
+    h2 {
+        font-size: medium;
+    }
+
+    .grid_container_bsas {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .p_lugares_bsas {
+        padding: 4%;
+        font-size: 90%;
+        margin: 2%;
     }
 }
