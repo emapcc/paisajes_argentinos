@@ -4,36 +4,8 @@
     margin: 0;
 } 
 
-/*Header*/
-header {
-    background-color: #D0D8DF;
-    display: flex;
-    justify-content: space-between;
-}
-
-header img {
-    width: 25px;
-    margin-left: 10px;
-    margin-top: 5px;
-}
-
-header nav ul li {
-    display: inline-flex;
-    flex-wrap: wrap-reverse;
-}
-
-header nav ul li a {
-    text-decoration: none;
-    color: black;
-    padding: 5px;
-    margin: auto 15px ;
-}
-
-.enlace_inicio:hover {
-    color: gray;
-}
-
 /*Cuerpo de la página*/
+
 .h1_estandar {
     background-color: #D8E7F5;
     color: #2C3844;
@@ -46,11 +18,22 @@ header nav ul li a {
 }
 
 /*Sección título y 3 imágenes*/
+
 main section img {
     width: 32%;
+    margin: 0 0.5%;
 }
 
+/*Form*/
+
+.container_form{
+    margin: 1%;
+}
+
+/*Grid Contenedor mapa y texto*/
+
 .grid_container_textmap {
+    margin: 1%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
@@ -103,6 +86,7 @@ section nav ul li a:hover {
 }
 
 /*Página Lugares clases*/
+
 .h1_lugares {
     background-color: #D8E7F5;
     color: #D8E7F5;
@@ -122,7 +106,9 @@ h2 {
 }
 
 /*Sección Buenos Aires*/
+
 .grid_container_bsas {
+    margin: 1%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
@@ -143,7 +129,9 @@ h2 {
 }
 
 /*Sección Patagonia Sur*/
+
 .grid_container_patag {
+    margin: 1%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
@@ -164,7 +152,9 @@ h2 {
 }
 
 /*Sección Norte*/
+
 .grid_container_norte {
+    margin: 1%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
@@ -185,22 +175,28 @@ h2 {
 }
 
 /*Página Info clases*/
+
 .info_jujuy {
     font-size: x-large;
     font-weight: 100;
     padding-left: 3%;
     padding-top: 1%;
+    margin-bottom: 3%;
 }
 
 /*Grid Jujuy*/
+
 .grid_container_jujuy {
-    font-size: 100%;
+    font-size: large;
+    margin: 1%;
     display: grid;
     grid-template-columns: repeat(5, 20%);
     grid-template-rows: repeat(7, 15%);
+    row-gap: 3%;
 }
 
 .info_purmamarca {
+    font-size: large;
     text-decoration: underline;
     font-weight: 200;
     margin-left: 15%;
@@ -209,7 +205,7 @@ h2 {
 
 .info_p_purmamarca {
     background-color: white;
-    font-size: 75%;
+    font-size: medium;
     text-align: justify;
     margin-left: 2%;
     margin-right: 5%;
@@ -217,6 +213,7 @@ h2 {
 }
 
 .info_maimara {
+    font-size: large;
     text-decoration: underline;
     font-weight: 200;
     margin-left:15%;
@@ -225,7 +222,7 @@ h2 {
 
 .info_p_maimara {
     background-color: white;
-    font-size: 75%;
+    font-size: medium;
     text-align: justify;
     margin-left: 2%;
     margin-right: 5%;
@@ -233,6 +230,7 @@ h2 {
 }
 
 .info_tilcara {
+    font-size: large;
     text-decoration: underline;
     font-weight: 200;
     margin-left: 15%;
@@ -241,7 +239,7 @@ h2 {
 
 .info_p_tilcara {
     background-color: white;
-    font-size: 75%;
+    font-size: medium;
     text-align: justify;
     margin-left: 2%;
     margin-right: 5%;
@@ -249,6 +247,7 @@ h2 {
 }
 
 .info_humahuaca {
+    font-size: large;
     text-decoration: underline;
     font-weight: 200;
     margin-left: 15%;
@@ -257,7 +256,7 @@ h2 {
 
 .info_p_humahuaca {
     background-color: white;
-    font-size: 75%;
+    font-size: medium;
     text-align: justify;
     margin-left: 2%;
     margin-right: 5%;
@@ -265,6 +264,7 @@ h2 {
 }
 
 .info_salinas {
+    font-size: large;
     text-decoration: underline;
     font-weight: 200;
     margin-left: 15%;
@@ -273,7 +273,7 @@ h2 {
 
 .info_p_salinas {
     background-color: white;
-    font-size: 75%;
+    font-size: medium;
     text-align: justify;
     margin-left: 2%;
     margin-right: 5%;
@@ -281,6 +281,7 @@ h2 {
 }
 
 .info_quiaca {
+    font-size: large;
     text-decoration: underline;
     font-weight: 200;
     margin-left: 15%;
@@ -289,7 +290,7 @@ h2 {
 
 .info_p_quiaca {
     background-color: white;
-    font-size: 75%;
+    font-size: medium;
     text-align: justify;
     margin-left: 2%;
     margin-right: 5%;
@@ -297,6 +298,7 @@ h2 {
 }
 
 .info_parque {
+    font-size: large;
     text-decoration: underline;
     font-weight: 200;
     margin-left: 15%;
@@ -305,7 +307,7 @@ h2 {
 
 .info_p_parque {
     background-color: white;
-    font-size: 75%;
+    font-size: medium;
     text-align: justify;
     margin-left: 2%;
     margin-right: 5%;
@@ -316,20 +318,24 @@ h2 {
 .info_h3_salta {
     font-size: x-large;
     font-weight: 100;
-    border-top: 1px solid #93A1AE;
+    border-top: 2px solid #93A1AE;
     padding-left: 3%;
     padding-top: 1%;
-    margin-top: 5%;
+    margin-top: 12%;
+    margin-bottom: 3%;
 }
 
 .grid_container_salta {
-    font-size: 100%;
+    font-size: large;
+    margin: 1%;
     display: grid;
     grid-template-columns: repeat(5, 20%);
     grid-template-rows: repeat(8, 15%);
+    row-gap: 7%;
 }
 
 .info_cafayate {
+    font-size: large;
     text-decoration: underline;
     font-weight: 200;
     margin-left: 15%;
@@ -338,7 +344,7 @@ h2 {
 
 .info_p_cafayate {
     background-color: white;
-    font-size: 75%;
+    font-size: medium;
     text-align: justify;
     margin-left: 2%;
     margin-right: 5%;
@@ -346,6 +352,7 @@ h2 {
 }
 
 .info_villa {
+    font-size: large;
     text-decoration: underline;
     font-weight: 200;
     margin-left: 15%;
@@ -354,7 +361,7 @@ h2 {
 
 .info_p_villa {
     background-color: white;
-    font-size: 75%;
+    font-size: medium;
     text-align: justify;
     margin-left: 2%;
     margin-right: 5%;
@@ -362,6 +369,7 @@ h2 {
 }
 
 .info_quebrada {
+    font-size: large;
     text-decoration: underline;
     font-weight: 200;
     margin-left: 15%;
@@ -370,7 +378,7 @@ h2 {
 
 .info_p_quebrada {
     background-color: white;
-    font-size: 75%;
+    font-size: medium;
     text-align: justify;
     margin-left: 2%;
     margin-right: 5%;
@@ -378,6 +386,7 @@ h2 {
 }
 
 .info_cachi {
+    font-size: large;
     text-decoration: underline;
     font-weight: 200;
     margin-left: 15%;
@@ -386,7 +395,7 @@ h2 {
 
 .info_p_cachi {
     background-color: white;
-    font-size: 75%;
+    font-size: medium;
     text-align: justify;
     margin-left: 2%;
     margin-right: 5%;
@@ -394,6 +403,7 @@ h2 {
 }
 
 .info_tele {
+    font-size: large;
     text-decoration: underline;
     font-weight: 200;
     margin-left: 15%;
@@ -402,7 +412,7 @@ h2 {
 
 .info_p_tele {
     background-color: white;
-    font-size: 75%;
+    font-size: medium;
     text-align: justify;
     margin-left: 2%;
     margin-right: 5%;
@@ -410,6 +420,7 @@ h2 {
 }
 
 .info_museo {
+    font-size: large;
     text-decoration: underline;
     font-weight: 200;
     margin-left: 15%;
@@ -418,7 +429,7 @@ h2 {
 
 .info_p_museo {
     background-color: white;
-    font-size: 75%;
+    font-size: medium;
     text-align: justify;
     margin-left: 2%;
     margin-right: 5%;
@@ -426,6 +437,7 @@ h2 {
 }
 
 .info_penas {
+    font-size: large;
     text-decoration: underline;
     font-weight: 200;
     margin-left: 15%;
@@ -434,7 +446,7 @@ h2 {
 
 .info_p_penas {
     background-color: white;
-    font-size: 75%;
+    font-size: medium;
     text-align: justify;
     margin-left: 2%;
     margin-right: 5%;
@@ -442,6 +454,7 @@ h2 {
 }
 
 .info_cabracorral {
+    font-size: large;
     text-decoration: underline;
     font-weight: 200;
     margin-left: 15%;
@@ -450,7 +463,7 @@ h2 {
 
 .info_p_cabracorral {
     background-color: white;
-    font-size: 75%;
+    font-size: medium;
     text-align: justify;
     margin-left: 2%;
     margin-right: 5%;
@@ -461,20 +474,24 @@ h2 {
 .info_h3_tucuman {
     font-size: x-large;
     font-weight: 100;
-    border-top: 1px solid #93A1AE;
+    border-top: 2px solid #93A1AE;
     padding-left: 3%;
     padding-top: 1%;
-    margin-top: 10%;
+    margin-top: 35%;
+    margin-bottom: 3%;
 } 
 
 .grid_container_tucuman {
-    font-size: 100%;
+    font-size: large;
+    margin: 1%;
     display: grid;
     grid-template-columns: repeat(5, 20%);
     grid-template-rows: repeat(8, 15%);
+    row-gap: 2%;
 }
 
 .info_casahist {
+    font-size: large;
     text-decoration: underline;
     font-weight: 200;
     margin-left: 15%;
@@ -483,7 +500,7 @@ h2 {
 
 .info_p_casahist {
     background-color: white;
-    font-size: 75%;
+    font-size: medium;
     text-align: justify;
     margin-left: 2%;
     margin-right: 5%;
@@ -492,6 +509,7 @@ h2 {
 }
 
 .info_tafi {
+    font-size: large;
     text-decoration: underline;
     font-weight: 200;
     margin-left: 15%;
@@ -500,7 +518,7 @@ h2 {
 
 .info_p_tafi {
     background-color: white;
-    font-size: 75%;
+    font-size: medium;
     text-align: justify;
     margin-left: 2%;
     margin-right: 5%;
@@ -509,6 +527,7 @@ h2 {
 }
 
 .info_amaicha {
+    font-size: large;
     text-decoration: underline;
     font-weight: 200;
     margin-left: 15%;
@@ -517,7 +536,7 @@ h2 {
 
 .info_p_amaicha {
     background-color: white;
-    font-size: 75%;
+    font-size: medium;
     text-align: justify;
     margin-left: 2%;
     margin-right: 5%;
@@ -526,6 +545,7 @@ h2 {
 }
 
 .info_quilmes {
+    font-size: large;
     text-decoration: underline;
     font-weight: 200;
     margin-left: 15%;
@@ -535,7 +555,7 @@ h2 {
 
 .info_p_quilmes {
     background-color: white;
-    font-size: 75%;
+    font-size: medium;
     text-align: justify;
     margin-left: 2%;
     margin-right: 5%;
@@ -567,14 +587,16 @@ section a img {
 }
 
 .img_telefono {
-    height: 400px;
-    margin-top: 4%;
+    height: 350px;
+    margin-top: 5%;
 }
 
 .contacto_h2 {
     background-color: rgb(215, 238, 236);
+    padding-bottom: 0;
     border-top: none;
     border-bottom: 1px solid #93A1AE;
+    margin-bottom: 10%;
 }
 
 .contacto_informacion {
@@ -596,7 +618,7 @@ section a img {
     margin: auto;
 }
 
-.contacto_h3 {
+.contacto_h4 {
     background-color: rgba(232, 238, 238, 0.867);
     font-weight: 300;
     padding: 1.5% 1%;
@@ -605,6 +627,8 @@ section a img {
 
 .form_contenedor {
     text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
 .label_cont {
@@ -623,7 +647,7 @@ footer {
     background-color: #D0D8DF;
     padding: 20px;
     border-top: 1px solid #93A1AE;
-    margin-top: 5%;
+    
 }
 
 footer ul {
@@ -638,4 +662,8 @@ footer ul li {
 
 footer ul li a {
     color: black;
+}
+
+.footer_grid_info {
+    margin-top: 8%;
 }
