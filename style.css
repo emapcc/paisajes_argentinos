@@ -26,8 +26,15 @@ main section img {
 
 /*Form*/
 
-.container_form{
+.container_form {
     margin: 1%;
+}
+
+.inicio_boton {
+    background-color:  rgb(154, 221, 206);
+    color: black;
+    border: 1px solid #93A1AE;
+    padding: 0 2%;
 }
 
 /*Grid Contenedor mapa y texto*/
@@ -59,6 +66,7 @@ section nav ul {
     list-style-type: none;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     margin: 20px 30px 30px 30px;
 }
 
@@ -666,4 +674,58 @@ footer ul li a {
 
 .footer_grid_info {
     margin-top: 8%;
+}
+
+/* MEDIA QUERY */
+
+@media only screen and (max-width: 480px) {
+    .h1_estandar {
+        font-size: 27px;
+    }
+
+    main section img {
+        width: 30%;
+        margin: 1%;
+    }
+
+    .container_form {
+        margin: 5% 1%;
+    }
+
+    .grid_container_textmap {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .parrafo_mapa {
+        padding: 4%;
+        font-size: 90%;
+        margin: 1%;
+    }
+
+    .inicio_mapa {
+        margin: 2%;
+    }
+
+    .pag_h4 {
+        font-size: medium;
+    }
+
+    section nav ul li a {
+        font-size: x-small;
+        padding: 5px 10px;
+        display: inline-flex;
+        flex-wrap: wrap;
+        
+    }
+
+    section nav ul {
+        margin: 0;
+        justify-content: flex-start;
+    }
+
+    footer {
+        padding: 0.5px;
+        font-size: x-small;
+    }
 }
