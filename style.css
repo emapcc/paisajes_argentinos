@@ -549,7 +549,11 @@ h2 {
 }
 
 /*Página Galería*/
-section a img {
+.img_galeria {
+    height: 200px;
+}
+
+#video_galeria {
     height: 90%;
 }
 
@@ -558,7 +562,7 @@ section a img {
     margin-top: 2%;
     display: grid;
     grid-template-columns: repeat(4, 24%);
-    grid-template-rows: repeat(5, 8%);
+    grid-template-rows: repeat(5, 15%);
     row-gap: 1%;
     column-gap: 1%;
     justify-items: center;
@@ -956,6 +960,11 @@ footer ul li a {
         align-content: center;
     }
 
+    #video_galeria {
+        height: 200px;
+        margin: 2%;
+    }
+
     /*Página Contacto*/
     .img_telefono {
         height: 250px;
@@ -1088,5 +1097,10 @@ footer ul li a {
         height: 12rem;
         margin: 2%;
         align-content: center;
+    }
+
+    #video_galeria {
+        height: 200px;
+        margin: 2%;
     }
 }
