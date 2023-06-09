@@ -1,0 +1,55 @@
+//Mixins
+@mixin efecto_hover() {
+    animation-name: efecto_galeria;
+    animation-timing-function: ease-in;
+    animation-duration: 1s;
+}
+
+/*Grid contenedor de imágenes*/
+.grid_container_galeria {
+    margin-top: 2%;
+    display: grid;
+    grid-template-columns: repeat(4, 24%);
+    grid-template-rows: repeat(5, 15%);
+    row-gap: 1%;
+    column-gap: 1%;
+    justify-items: center;
+}
+
+.img_galeria {
+    height: 200px;
+}
+
+#video_galeria {
+    height: 90%;
+}
+
+.img_galeria {
+    &:hover {
+        @include efecto_hover();
+    }
+}
+
+#video_galeria {
+    &:hover {
+        @include efecto_hover();
+    }
+}
+
+@keyframes efecto_galeria {
+    0% {
+        opacity: 0.1;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    75% {
+        opacity: 0.75;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

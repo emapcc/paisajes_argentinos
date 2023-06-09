@@ -1,0 +1,126 @@
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+
+    //Página Inicio
+    .h1_estandar {
+        font-size: 34px;
+    }
+
+    main {
+        section {
+            img {
+                width: 30.7%;
+                margin: 1%;
+            }
+        }
+    }
+
+    .container_form {
+        margin: 3% 1%;
+    }
+
+    .grid_container_textmap {
+        display: flex;
+        flex-wrap: wrap;
+        p {
+            padding: 4%;
+            font-size: 95%;
+            margin: 2%;
+        }
+    }
+
+    .inicio_mapa {
+        margin: 2%;
+    }
+
+    .pag_h4 {
+        font-size: large;
+    }
+
+    section {
+        nav {
+            ul {
+                margin: 0;
+                li {
+                    a {
+                        font-size: x-small;
+                        padding: 5px 10px;
+                        display: inline-flex;
+                        flex-wrap: wrap;
+                    }
+                }
+            }
+        }
+    }
+
+    //Página Lugares
+    .h1_lugares {
+        font-size: 34px;
+    }
+
+    h2 {
+        font-size: large;
+    }
+
+    .grid_container_lugares {
+        display: flex;
+        flex-wrap: wrap;
+        p {
+            padding: 4%;
+            font-size: 95%;
+            margin: 2%;
+        }
+    }
+
+    .grid_container_patag {
+        display: flex;
+        flex-wrap: wrap;
+        p {
+            padding: 4%;
+            font-size: 95%;
+            margin: 2%;
+        }
+    }
+
+    //Página Información
+    .grid_container_jujuy {
+        row-gap: 4%;
+    }
+
+    .info_h3_salta {
+        margin-top: 57%;
+    }
+
+    .info_h3_tucuman {
+        margin-top: 143%;
+    }
+
+    .info_casahist {
+        font-size: medium;
+    }
+
+    .footer_grid_info {
+        margin-top: 38%;
+    }
+
+    //Página Galería
+    .grid_container_galeria {
+        display: block;
+    }
+
+    .img_galeria {
+        height: 12rem;
+        margin: 2%;
+        align-content: center;
+    }
+
+    #video_galeria {
+        height: 200px;
+        margin: 2%;
+    }
+
+    //Footer
+    footer {
+        padding: 0.5px;
+        font-size: x-small;
+    }
+}

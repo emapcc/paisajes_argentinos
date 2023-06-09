@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 100%;
@@ -398,6 +399,104 @@ h2 {
   grid-row: 7/9;
 }
 
+/*Grid contenedor de imágenes*/
+.grid_container_galeria {
+  margin-top: 2%;
+  display: grid;
+  grid-template-columns: repeat(4, 24%);
+  grid-template-rows: repeat(5, 15%);
+  row-gap: 1%;
+  column-gap: 1%;
+  justify-items: center;
+}
+
+.img_galeria {
+  height: 200px;
+}
+
+#video_galeria {
+  height: 90%;
+}
+
+.img_galeria:hover {
+  animation-name: efecto_galeria;
+  animation-timing-function: ease-in;
+  animation-duration: 1s;
+}
+
+#video_galeria:hover {
+  animation-name: efecto_galeria;
+  animation-timing-function: ease-in;
+  animation-duration: 1s;
+}
+
+@keyframes efecto_galeria {
+  0% {
+    opacity: 0.1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  75% {
+    opacity: 0.75;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.contacto_contenedor {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.contacto_contenedor img {
+  height: 350px;
+  margin-top: 5%;
+}
+.contacto_contenedor section {
+  background-color: rgb(215, 238, 236);
+  padding: 5% 10%;
+  border: 1px solid rgb(101, 161, 143);
+  margin: 5% 5%;
+  text-align: center;
+}
+.contacto_contenedor section h2 {
+  background-color: rgb(215, 238, 236);
+  padding-bottom: 0;
+  border-top: none;
+  border-bottom: 1px solid #93A1AE;
+  margin-bottom: 10%;
+}
+.contacto_contenedor section div {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.contacto_contenedor section div img {
+  height: 2rem;
+  margin: auto;
+}
+
+.contacto_h4 {
+  background-color: rgba(232, 238, 238, 0.867);
+  font-weight: 300;
+  padding: 1.5% 1%;
+  border-top: 1px solid #93A1AE;
+}
+
+.form_contenedor {
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.contacto_boton {
+  background-color: rgb(154, 221, 206);
+  color: black;
+  border: 1px solid #93A1AE;
+  padding: 0 2%;
+}
+
 footer {
   background-color: #D0D8DF;
   padding: 20px;
@@ -453,6 +552,263 @@ footer ul li a {
     padding: 5px 10px;
     display: inline-flex;
     flex-wrap: wrap;
+  }
+  .h1_lugares {
+    font-size: 27px;
+  }
+  h2 {
+    font-size: medium;
+  }
+  .grid_container_lugares {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .grid_container_lugares p {
+    padding: 4%;
+    font-size: 90%;
+    margin: 2%;
+  }
+  .grid_container_patag {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .grid_container_patag p {
+    padding: 4%;
+    font-size: 90%;
+    margin: 2%;
+  }
+  .info_jujuy {
+    font-size: medium;
+    font-weight: 600;
+    padding-left: 5%;
+    margin: 3% 0;
+  }
+  .grid_container_jujuy {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .grid_container_jujuy p {
+    margin: 0 4.5% 4% 4.5%;
+  }
+  .info_purmamarca {
+    font-size: medium;
+    margin: 1% 3%;
+  }
+  .info_maimara {
+    font-size: medium;
+    margin: 1% 3%;
+  }
+  .info_tilcara {
+    font-size: medium;
+    margin: 1% 3%;
+  }
+  .info_humahuaca {
+    font-size: medium;
+    margin: 1% 3%;
+  }
+  .info_salinas {
+    font-size: medium;
+    margin: 1% 3%;
+  }
+  .info_quiaca {
+    font-size: medium;
+    margin: 1% 3%;
+  }
+  .info_parque {
+    font-size: medium;
+    margin: 1% 3%;
+  }
+  .info_h3_salta {
+    font-size: medium;
+    font-weight: 600;
+    padding-left: 5%;
+    margin: 3% 0;
+    padding-top: 3%;
+  }
+  .grid_container_salta {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .grid_container_salta p {
+    margin: 0 4.5% 4% 4.5%;
+  }
+  .info_cafayate {
+    font-size: medium;
+    margin: 1% 3%;
+  }
+  .info_villa {
+    font-size: medium;
+    margin: 1% 3%;
+  }
+  .info_quebrada {
+    font-size: medium;
+    margin: 1% 3%;
+  }
+  .info_cachi {
+    font-size: medium;
+    margin: 1% 3%;
+  }
+  .info_tele {
+    font-size: medium;
+    margin: 1% 3%;
+  }
+  .info_museo {
+    font-size: medium;
+    margin: 1% 3%;
+  }
+  .info_penas {
+    font-size: medium;
+    margin: 1% 3%;
+  }
+  .info_cabracorral {
+    font-size: medium;
+    margin: 1% 3%;
+  }
+  .info_h3_tucuman {
+    font-size: medium;
+    font-weight: 600;
+    padding-left: 5%;
+    margin: 3% 0;
+    padding-top: 3%;
+  }
+  .grid_container_tucuman {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .grid_container_tucuman p {
+    margin: 0 4.5% 4% 4.5%;
+  }
+  .info_casahist {
+    font-size: medium;
+    margin: 1% 3%;
+  }
+  .info_tafi {
+    font-size: medium;
+    margin: 1% 3%;
+  }
+  .info_amaicha {
+    font-size: medium;
+    margin: 1% 3%;
+  }
+  .info_quilmes {
+    font-size: medium;
+    margin: 1% 3%;
+  }
+  .grid_container_galeria {
+    display: block;
+  }
+  .img_galeria {
+    height: 12rem;
+    margin: 2%;
+    align-content: center;
+  }
+  #video_galeria {
+    height: 200px;
+    margin: 2%;
+  }
+  .contacto_contenedor img {
+    height: 250px;
+  }
+  section section div p {
+    font-size: small;
+  }
+  .contacto_h4 {
+    font-size: small;
+    padding: 3%;
+  }
+  .form_contenedor {
+    font-size: xx-small;
+  }
+  footer {
+    padding: 0.5px;
+    font-size: x-small;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .h1_estandar {
+    font-size: 34px;
+  }
+  main section img {
+    width: 30.7%;
+    margin: 1%;
+  }
+  .container_form {
+    margin: 3% 1%;
+  }
+  .grid_container_textmap {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .grid_container_textmap p {
+    padding: 4%;
+    font-size: 95%;
+    margin: 2%;
+  }
+  .inicio_mapa {
+    margin: 2%;
+  }
+  .pag_h4 {
+    font-size: large;
+  }
+  section nav ul {
+    margin: 0;
+  }
+  section nav ul li a {
+    font-size: x-small;
+    padding: 5px 10px;
+    display: inline-flex;
+    flex-wrap: wrap;
+  }
+  .h1_lugares {
+    font-size: 34px;
+  }
+  h2 {
+    font-size: large;
+  }
+  .grid_container_lugares {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .grid_container_lugares p {
+    padding: 4%;
+    font-size: 95%;
+    margin: 2%;
+  }
+  .grid_container_patag {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .grid_container_patag p {
+    padding: 4%;
+    font-size: 95%;
+    margin: 2%;
+  }
+  .grid_container_jujuy {
+    row-gap: 4%;
+  }
+  .info_h3_salta {
+    margin-top: 57%;
+  }
+  .info_h3_tucuman {
+    margin-top: 143%;
+  }
+  .info_casahist {
+    font-size: medium;
+  }
+  .footer_grid_info {
+    margin-top: 38%;
+  }
+  .grid_container_galeria {
+    display: block;
+  }
+  .img_galeria {
+    height: 12rem;
+    margin: 2%;
+    align-content: center;
+  }
+  #video_galeria {
+    height: 200px;
+    margin: 2%;
   }
   footer {
     padding: 0.5px;

@@ -1,3 +1,15 @@
+@mixin info_caracteristicas() {
+    font-size: medium;
+    margin: 1% 3%;
+}
+
+@mixin caracteristicas() {
+    font-size: medium;
+    font-weight: 600;
+    padding-left: 5%;
+    margin: 3% 0;
+}
+
 @media only screen and (max-width: 480px) {
 
     //Página Inicio
@@ -54,7 +66,190 @@
     }
 
     //Página Lugares
-    
+    .h1_lugares {
+        font-size: 27px;
+    }
+
+    h2 {
+        font-size: medium;
+    }
+
+    .grid_container_lugares {
+        display: flex;
+        flex-wrap: wrap;
+        p {
+            padding: 4%;
+            font-size: 90%;
+            margin: 2%;
+        }
+    }
+
+    .grid_container_patag {
+        display: flex;
+        flex-wrap: wrap;
+        p {
+            padding: 4%;
+            font-size: 90%;
+            margin: 2%;
+        }
+    }
+
+    //Página Información
+    .info_jujuy {
+        @include caracteristicas();
+    }
+
+    .grid_container_jujuy {
+        display: flex;
+        flex-wrap: wrap;
+        p {
+            margin: 0 4.5% 4% 4.5%;
+        }
+    }
+
+    .info_purmamarca {
+        @include info_caracteristicas();
+    }
+
+    .info_maimara {
+        @include info_caracteristicas();
+    }
+
+    .info_tilcara {
+        @include info_caracteristicas();
+    }
+
+    .info_humahuaca {
+        @include info_caracteristicas();
+    }
+
+    .info_salinas {
+        @include info_caracteristicas();
+    }
+
+    .info_quiaca {
+        @include info_caracteristicas();
+    }
+
+    .info_parque {
+        @include info_caracteristicas();
+    }
+
+    .info_h3_salta {
+        @include caracteristicas();
+        padding-top: 3%;
+    }
+
+    .grid_container_salta {
+        display: flex;
+        flex-wrap: wrap;
+        p {
+            margin: 0 4.5% 4% 4.5%;
+        }
+    }
+
+    .info_cafayate {
+        @include info_caracteristicas();
+    }
+
+    .info_villa {
+        @include info_caracteristicas();
+    }
+
+    .info_quebrada {
+        @include info_caracteristicas();
+    }
+
+    .info_cachi {
+        @include info_caracteristicas();
+    }
+
+    .info_tele {
+        @include info_caracteristicas();
+    }
+
+    .info_museo {
+        @include info_caracteristicas();
+    }
+
+    .info_penas {
+        @include info_caracteristicas();
+    }
+
+    .info_cabracorral {
+        @include info_caracteristicas();
+    }
+
+    .info_h3_tucuman {
+        @include caracteristicas();
+        padding-top: 3%;
+    }
+
+    .grid_container_tucuman {
+        display: flex;
+        flex-wrap: wrap;
+        p {
+            margin: 0 4.5% 4% 4.5%;
+        }
+    }
+
+    .info_casahist {
+        @include info_caracteristicas();
+    }
+
+    .info_tafi {
+        @include info_caracteristicas();
+    }
+
+    .info_amaicha {
+        @include info_caracteristicas();
+    }
+
+    .info_quilmes {
+        @include info_caracteristicas();
+    }
+
+    //Página Galería
+    .grid_container_galeria {
+        display: block;
+    }
+
+    .img_galeria {
+        height: 12rem;
+        margin: 2%;
+        align-content: center;
+    }
+
+    #video_galeria {
+        height: 200px;
+        margin: 2%;
+    }
+
+    //Página Contacto
+    .contacto_contenedor {
+        img {
+            height: 250px;
+        }
+    }
+
+    section {
+        section {
+            div {
+                p {
+                    font-size: small;
+                }
+            }
+        }
+    }
+
+    .contacto_h4 {
+        font-size: small;
+        padding: 3%;
+    }
+
+    .form_contenedor {
+        font-size: xx-small;
+    }
 
     //Footer
     footer {
