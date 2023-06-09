@@ -1,0 +1,19 @@
+footer {
+    background-color: #D0D8DF;
+    padding: 20px;
+    border-top: 1px solid #93A1AE;
+    ul {
+        display: block;
+        li {
+            list-style-type: none;
+            margin: 25px 10px;
+            a {
+                color: black;
+            }
+        }
+    }
+}
+
+.footer_grid_info {
+    margin-top: 8%;
+}

@@ -1,0 +1,87 @@
+//Título
+.h1_estandar {
+    background-color: #D8E7F5;
+    color: #2C3844;
+    font-size: 40px;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 1px solid #93A1AE;
+    margin-top: 0;
+    margin-bottom: 1%;
+}
+
+//Sección título y 3 img
+main {
+    section {
+        img {
+            width: 32%;
+            margin: 0 0.5%;
+        }
+    }
+}
+
+//Form
+.container_form {
+    margin: 1%;
+}
+
+.inicio_boton {
+    background-color:  rgb(154, 221, 206);
+    color: black;
+    border: 1px solid #93A1AE;
+    padding: 0 2%;
+}
+
+//Grid Contenedor mapa y texto
+.grid_container_textmap {
+    margin: 1%;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 1fr;
+    p {
+        font-size: larger;
+        background-color: #D7EEEC;
+        padding: 25px;
+        border: 1px solid #43A89B;
+        text-align: justify;
+        margin-right: 25px;
+        grid-column: 1 / 5;
+    }
+}
+
+//Sección Lugares buscados
+.pag_h4 {
+    font-weight: 200;
+    padding-top: 20px;
+    padding-left: 25px;
+    border-top: 1px solid #97A5B3;
+}
+
+//Botones
+section {
+    nav {
+        ul {
+            list-style-type: none;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin: 20px 30px 30px 30px;
+            li {
+                a {
+                    text-decoration: none;
+                    color: white;
+                    list-style-type: none;
+                    background-color: #3C7668;
+                    padding: 10px 25px;
+                    margin: 25px 25px;
+                    border: 2px solid #01543B;
+                    border-radius: 5px;
+                    &:hover {
+                        color: darkgrey;
+                        background-color: #01543B;
+                    }
+                }
+            }
+        }
+    }
+}
