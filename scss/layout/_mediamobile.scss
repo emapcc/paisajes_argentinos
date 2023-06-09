@@ -1,0 +1,64 @@
+@media only screen and (max-width: 480px) {
+
+    //Página Inicio
+    .h1_estandar {
+        font-size: 27px;
+    }
+
+    main {
+        section {
+            img {
+                width: 30%;
+                margin: 1%;
+            }
+        }
+    }
+
+    .container_form {
+        margin: 5% 1%;
+    }
+
+    .grid_container_textmap {
+        display: flex;
+        flex-wrap: wrap;
+        p {
+            padding: 4%;
+            font-size: 90%;
+            margin: 1%;
+        }
+    }
+
+    .inicio_mapa {
+        margin: 2%;
+    }
+
+    .pag_h4 {
+        font-size: medium;
+    }
+
+    section {
+        nav {
+            ul {
+                margin: 0;
+                justify-content: flex-start;
+                li {
+                    a {
+                        font-size: x-small;
+                        padding: 5px 10px;
+                        display: inline-flex;
+                        flex-wrap: wrap;
+                    }
+                }
+            }
+        }
+    }
+
+    //Página Lugares
+    
+
+    //Footer
+    footer {
+        padding: 0.5px;
+        font-size: x-small;
+    }
+}

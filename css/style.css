@@ -86,6 +86,318 @@ section nav ul li a:hover {
   margin-bottom: 0;
 }
 
+h2 {
+  background-color: #F3F5F7;
+  font-weight: 500;
+  padding: 15px;
+  border-top: 1px solid #93A1AE;
+  margin-top: 0;
+}
+
+.grid_container_lugares {
+  margin: 1%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+.grid_container_lugares p {
+  background-color: #D7EEEC;
+  padding: 25px;
+  border: 1px solid #43A89B;
+  text-align: justify;
+  margin-right: 25px;
+  margin-top: 0;
+}
+.grid_container_lugares img {
+  width: 100%;
+  margin-bottom: 2%;
+}
+
+.grid_container_patag {
+  margin: 1%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+.grid_container_patag img {
+  width: 100%;
+  margin-bottom: 2%;
+}
+.grid_container_patag p {
+  background-color: #D7EEEC;
+  padding: 25px;
+  border: 1px solid #43A89B;
+  text-align: justify;
+  margin-left: 25px;
+  margin-top: 0;
+}
+
+.info_jujuy {
+  font-size: x-large;
+  font-weight: 100;
+  padding-left: 3%;
+  padding-top: 1%;
+  margin-bottom: 3%;
+}
+
+.grid_container_jujuy {
+  font-size: large;
+  margin: 1%;
+  display: grid;
+  grid-template-columns: repeat(5, 20%);
+  grid-template-rows: repeat(7, 15%);
+  row-gap: 3%;
+}
+.grid_container_jujuy p {
+  background-color: white;
+  font-size: medium;
+  text-align: justify;
+  margin-left: 2%;
+  margin-right: 5%;
+  grid-column: 2/6;
+}
+.grid_container_jujuy h4 {
+  font-size: large;
+  text-decoration: underline;
+  font-weight: 200;
+  margin-left: 15%;
+}
+
+.info_purmamarca {
+  font-size: large;
+  text-decoration: underline;
+  font-weight: 200;
+  margin-left: 15%;
+  grid-row: 1/2;
+}
+
+.info_maimara {
+  font-size: large;
+  text-decoration: underline;
+  font-weight: 200;
+  margin-left: 15%;
+  grid-row: 2/3;
+}
+
+.info_tilcara {
+  font-size: large;
+  text-decoration: underline;
+  font-weight: 200;
+  margin-left: 15%;
+  grid-row: 3/4;
+}
+
+.info_humahuaca {
+  font-size: large;
+  text-decoration: underline;
+  font-weight: 200;
+  margin-left: 15%;
+  grid-row: 4/5;
+}
+
+.info_salinas {
+  font-size: large;
+  text-decoration: underline;
+  font-weight: 200;
+  margin-left: 15%;
+  grid-row: 5/6;
+}
+
+.info_quiaca {
+  font-size: large;
+  text-decoration: underline;
+  font-weight: 200;
+  margin-left: 15%;
+  grid-row: 6/7;
+}
+
+.info_parque {
+  font-size: large;
+  text-decoration: underline;
+  font-weight: 200;
+  margin-left: 15%;
+  grid-row: 7/8;
+}
+
+.info_h3_salta {
+  font-size: x-large;
+  font-weight: 100;
+  padding-left: 3%;
+  padding-top: 1%;
+  margin-bottom: 3%;
+  border-top: 2px solid #93A1AE;
+  margin-top: 12%;
+}
+
+.grid_container_salta {
+  font-size: large;
+  margin: 1%;
+  display: grid;
+  grid-template-columns: repeat(5, 20%);
+  grid-template-rows: repeat(8, 15%);
+  row-gap: 7%;
+}
+.grid_container_salta p {
+  background-color: white;
+  font-size: medium;
+  text-align: justify;
+  margin-left: 2%;
+  margin-right: 5%;
+  grid-column: 2/6;
+}
+.grid_container_salta h4 {
+  font-size: large;
+  text-decoration: underline;
+  font-weight: 200;
+  margin-left: 15%;
+}
+
+.info_cafayate {
+  font-size: large;
+  text-decoration: underline;
+  font-weight: 200;
+  margin-left: 15%;
+  grid-row: 1/2;
+}
+
+.info_villa {
+  font-size: large;
+  text-decoration: underline;
+  font-weight: 200;
+  margin-left: 15%;
+  grid-row: 2/3;
+}
+
+.info_quebrada {
+  font-size: large;
+  text-decoration: underline;
+  font-weight: 200;
+  margin-left: 15%;
+  grid-row: 3/4;
+}
+
+.info_cachi {
+  font-size: large;
+  text-decoration: underline;
+  font-weight: 200;
+  margin-left: 15%;
+  grid-row: 4/5;
+}
+
+.info_tele {
+  font-size: large;
+  text-decoration: underline;
+  font-weight: 200;
+  margin-left: 15%;
+  grid-row: 5/6;
+}
+
+.info_museo {
+  font-size: large;
+  text-decoration: underline;
+  font-weight: 200;
+  margin-left: 15%;
+  grid-row: 6/7;
+}
+
+.info_penas {
+  font-size: large;
+  text-decoration: underline;
+  font-weight: 200;
+  margin-left: 15%;
+  grid-row: 7/8;
+}
+
+.info_cabracorral {
+  font-size: large;
+  text-decoration: underline;
+  font-weight: 200;
+  margin-left: 15%;
+  grid-row: 8/9;
+}
+
+.info_h3_tucuman {
+  font-size: x-large;
+  font-weight: 100;
+  padding-left: 3%;
+  padding-top: 1%;
+  margin-bottom: 3%;
+  border-top: 2px solid #93A1AE;
+  margin-top: 35%;
+}
+
+.grid_container_tucuman {
+  font-size: large;
+  margin: 1%;
+  display: grid;
+  grid-template-columns: repeat(5, 20%);
+  grid-template-rows: repeat(8, 15%);
+  row-gap: 2%;
+}
+.grid_container_tucuman p {
+  background-color: white;
+  font-size: medium;
+  text-align: justify;
+  margin-left: 2%;
+  margin-right: 5%;
+  grid-column: 2/6;
+}
+.grid_container_tucuman h4 {
+  font-size: large;
+  text-decoration: underline;
+  font-weight: 200;
+  margin-left: 15%;
+}
+
+.info_casahist {
+  font-size: large;
+  text-decoration: underline;
+  font-weight: 200;
+  margin-left: 15%;
+  grid-row: 1/3;
+}
+
+.info_p_casahist {
+  grid-row: 1/3;
+}
+
+.info_tafi {
+  font-size: large;
+  text-decoration: underline;
+  font-weight: 200;
+  margin-left: 15%;
+  grid-row: 3/5;
+}
+
+.info_p_tafi {
+  grid-row: 3/5;
+}
+
+.info_amaicha {
+  font-size: large;
+  text-decoration: underline;
+  font-weight: 200;
+  margin-left: 15%;
+  grid-row: 5/7;
+}
+
+.info_p_amaicha {
+  grid-row: 5/7;
+}
+
+.info_quilmes {
+  font-size: large;
+  text-decoration: underline;
+  font-weight: 200;
+  margin-left: 15%;
+  margin-bottom: 20px;
+  grid-row: 7/9;
+}
+
+.info_p_quilmes {
+  grid-row: 7/9;
+}
+
 footer {
   background-color: #D0D8DF;
   padding: 20px;
@@ -104,6 +416,48 @@ footer ul li a {
 
 .footer_grid_info {
   margin-top: 8%;
+}
+
+@media only screen and (max-width: 480px) {
+  .h1_estandar {
+    font-size: 27px;
+  }
+  main section img {
+    width: 30%;
+    margin: 1%;
+  }
+  .container_form {
+    margin: 5% 1%;
+  }
+  .grid_container_textmap {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .grid_container_textmap p {
+    padding: 4%;
+    font-size: 90%;
+    margin: 1%;
+  }
+  .inicio_mapa {
+    margin: 2%;
+  }
+  .pag_h4 {
+    font-size: medium;
+  }
+  section nav ul {
+    margin: 0;
+    justify-content: flex-start;
+  }
+  section nav ul li a {
+    font-size: x-small;
+    padding: 5px 10px;
+    display: inline-flex;
+    flex-wrap: wrap;
+  }
+  footer {
+    padding: 0.5px;
+    font-size: x-small;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

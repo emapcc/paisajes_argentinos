@@ -1,0 +1,201 @@
+//Mixins
+@mixin grid_caracteristicas() {
+    font-size: large;
+    margin: 1%;
+    display: grid;
+    grid-template-columns: repeat(5, 20%);
+}
+
+@mixin info_caracteristicas() {
+    font-size: large;
+    text-decoration: underline;
+    font-weight: 200;
+    margin-left: 15%;
+}
+
+@mixin info_p_caracteristicas() {
+    background-color: white;
+    font-size: medium;
+    text-align: justify;
+    margin-left: 2%;
+    margin-right: 5%;
+    grid-column: 2 / 6;
+}
+
+@mixin caracteristicas() {
+    font-size: x-large;
+    font-weight: 100;
+    padding-left: 3%;
+    padding-top: 1%;
+    margin-bottom: 3%;
+}
+
+//Sección Jujuy
+.info_jujuy {
+    @include caracteristicas();
+}
+
+//Grid Jujuy
+.grid_container_jujuy {
+    @include grid_caracteristicas();
+    grid-template-rows: repeat(7, 15%);
+    row-gap: 3%;
+    p {
+        @include info_p_caracteristicas();
+    }
+    h4 {
+        @include info_caracteristicas();
+    }
+}
+
+.info_purmamarca {
+    @include info_caracteristicas();
+    grid-row: 1 / 2;
+}
+
+.info_maimara {
+    @include info_caracteristicas();
+    grid-row: 2 / 3;
+}
+
+.info_tilcara {
+    @include info_caracteristicas();
+    grid-row: 3 / 4;
+}
+
+.info_humahuaca {
+    @include info_caracteristicas();
+    grid-row: 4 / 5;
+}
+
+.info_salinas {
+    @include info_caracteristicas();
+    grid-row: 5 / 6;
+}
+
+.info_quiaca {
+    @include info_caracteristicas();
+    grid-row: 6 / 7;
+}
+
+.info_parque {
+    @include info_caracteristicas();
+    grid-row: 7 / 8;
+}
+
+//Sección Salta
+.info_h3_salta {
+    @include caracteristicas();
+    border-top: 2px solid #93A1AE;
+    margin-top: 12%;
+}
+
+//Grid Salta
+.grid_container_salta {
+    @include grid_caracteristicas();
+    grid-template-rows: repeat(8, 15%);
+    row-gap: 7%;
+    p {
+        @include info_p_caracteristicas();
+    }
+    h4 {
+        @include info_caracteristicas();
+    }
+}
+
+.info_cafayate {
+    @include info_caracteristicas();
+    grid-row: 1 / 2;
+}
+
+.info_villa {
+    @include info_caracteristicas();
+    grid-row: 2 / 3;
+}
+
+.info_quebrada {
+    @include info_caracteristicas();
+    grid-row: 3 / 4;
+}
+
+.info_cachi {
+    @include info_caracteristicas();
+    grid-row: 4 / 5;
+}
+
+.info_tele {
+    @include info_caracteristicas();
+    grid-row: 5 / 6;
+}
+
+.info_museo {
+    @include info_caracteristicas();
+    grid-row: 6 / 7;
+}
+
+.info_penas {
+    @include info_caracteristicas();
+    grid-row: 7 / 8;
+}
+
+.info_cabracorral {
+    @include info_caracteristicas();
+    grid-row: 8 / 9;
+}
+
+//Sección Tucumán
+.info_h3_tucuman {
+    @include caracteristicas();
+    border-top: 2px solid #93A1AE;
+    margin-top: 35%;
+}
+
+//Grid Tucumán
+.grid_container_tucuman {
+    @include grid_caracteristicas();
+    grid-template-rows: repeat(8, 15%);
+    row-gap: 2%;
+    p {
+        @include info_p_caracteristicas();
+    }
+    h4 {
+        @include info_caracteristicas();
+    }
+}
+
+.info_casahist {
+    @include info_caracteristicas();
+    grid-row: 1 / 3;
+}
+
+.info_p_casahist {
+    grid-row: 1 / 3;
+}
+
+.info_tafi {
+    @include info_caracteristicas();
+    grid-row: 3 / 5;
+}
+
+.info_p_tafi {
+    grid-row: 3 / 5;
+}
+
+.info_amaicha {
+    @include info_caracteristicas();
+    grid-row: 5 / 7;
+}
+
+.info_p_amaicha {
+    grid-row: 5 / 7;
+}
+
+.info_quilmes {
+    @include info_caracteristicas();
+    margin-bottom: 20px;
+    grid-row: 7 / 9;
+}
+
+.info_p_quilmes {
+    grid-row: 7 / 9;
+}

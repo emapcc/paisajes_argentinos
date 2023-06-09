@@ -1,0 +1,57 @@
+.h1_lugares {
+    background-color: #D8E7F5;
+    color: #D8E7F5;
+    font-size: 40px;
+    text-align: center;
+    padding: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h2 {
+    background-color: #F3F5F7;
+    font-weight: 500;
+    padding: 15px;
+    border-top: 1px solid #93A1AE;
+    margin-top: 0;
+}
+
+//Sección Buenos Aires y Norte
+.grid_container_lugares {
+    margin: 1%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    p {
+        background-color: #D7EEEC;
+        padding: 25px;
+        border: 1px solid #43A89B;
+        text-align: justify;
+        margin-right: 25px;
+        margin-top: 0;
+    }
+    img {
+        width: 100%;
+        margin-bottom: 2%;
+    }
+}
+
+//Sección Patagonia Sur
+.grid_container_patag {
+    margin: 1%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    img {
+        width: 100%;
+        margin-bottom: 2%;
+    }
+    p {
+        background-color: #D7EEEC;
+        padding: 25px;
+        border: 1px solid #43A89B;
+        text-align: justify;
+        margin-left: 25px;
+        margin-top: 0;
+    }
+}
