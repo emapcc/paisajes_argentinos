@@ -10,7 +10,7 @@
     margin-top: 2%;
     display: grid;
     grid-template-columns: repeat(4, 24%);
-    grid-template-rows: repeat(5, 15%);
+    grid-template-rows: repeat(7, 10%);
     row-gap: 1%;
     column-gap: 1%;
     justify-items: center;
@@ -21,7 +21,7 @@
 }
 
 #video_galeria {
-    height: 90%;
+    height: 95%;
 }
 
 .img_galeria {
